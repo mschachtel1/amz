@@ -1,6 +1,6 @@
 {
     "app_type": "hosted",
-    "name": "The World of Amazon",
+    "name": "Amazon",
     "description": "Search any Amazon Country",
     "icons": {
         "128": "icon-128.png"
@@ -9,9 +9,8 @@
         "name": "Thee Pupil",
         "url": "http://theepupil.weebly.com"
     },
-    "default_locale": "en",
-    "chrome": {
-        "navigation": "true​"
+    "default_locale": "en"
+   
     }
 }
 
