@@ -1,6 +1,7 @@
 {
-    "name": "My App",
-    "description": "The World of Amazon",
+    "app_type": "hosted",
+    "name": "The World of Amazon",
+    "description": "Search any Amazon Country",
     "icons": {
         "128": "icon-128.png"
     },
