@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> The World of Amazon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop the World's Biggest Selection">
+    <meta name="author" content="Thee Pupil">
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body{ background-image:url('img/rocks.jpg'); background-repeat:none ; }
+    </style>
+     <script src="assets/js/jq.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+      <div class="col-xs-6 col-md-3"> <a href="http://www.amazon.com" title="Amazon.com - United States"><img src="img/us.png" class="img-responsive"> </a>
+      <form action="http://www.amazon.com/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1" >
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.com/gp/new-releases/books/ref=sv_b_1"><span class="glyphicon glyphicon-book"></span> New Books</a></li>
+                <li><a href="http://www.amazon.com/new-releases-dvd-bluray/b/ref=sv_mov_0?ie=UTF8&node=2921748011"><span class="glyphicon glyphicon-film"></span> New Movies</a></li>
+                <li><a href="http://www.amazon.com/gp/goldbox/ref=sv_gb_0"><span class="glyphicon glyphicon-flash"></span> Today's Deals</a></li>
+                <li><a href="https://www.amazon.com/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="Search US" class="form-control"/>
+        </div>
+      </form>
+      </div>
+      <div class="col-xs-6 col-md-3"><a href="http://www.amazon.co.uk" title="Amazon.co.uk - United Kingdom"><img src="img/uk.png" class="img-responsive"> </a>   
+      <form action="http://www.amazon.co.uk/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.co.uk/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> New Books</a></li>
+                <li><a href="http://www.amazon.co.uk/gp/new-releases/dvd"><span class="glyphicon glyphicon-film"></span> New Movies</a></li>
+                <li><a href="http://www.amazon.co.uk/deals-offers-savings/b/ref=cs_top_nav_gb27?ie=UTF8&node=350613011"><span class="glyphicon glyphicon-flash"></span> Lightning Deals</a></li>
+                <li><a href="https://www.amazon.co.uk/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="Search UK" class="form-control"/>
+        </div>
+      </form>
+      </div>
+      <div class="col-xs-6 col-md-3"><a href="http://www.amazon.de" title="Amazon.de - Deutschland"><img src="img/de.png" class="img-responsive"> </a>
+    <form action="http://www.amazon.de/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.de/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> Neuerscheinungen in Bücher</a></li>
+                <li><a href="http://www.amazon.de/gp/new-releases/dvd"><span class="glyphicon glyphicon-film"></span> Neuerscheinungen in Filme & TV</a></li>
+                <li><a href="http://www.amazon.de/Angebote/b/ref=cs_top_nav_gb27?ie=UTF8&node=872398"><span class="glyphicon glyphicon-flash"></span> Angebote </a></li>
+                <li><a href="https://www.amazon.de/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> Mein Konto</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="DE Suche" class="form-control"/>
+        </div>
+      </form>
+      </div>
+      <div class="col-xs-6 col-md-3"><a href="http://www.amazon.fr" title="Amazon.fr - France"><img src="img/fr.png" class="img-responsive"></a>
+      <form action="http://www.amazon.fr/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.fr/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> Dernières nouveautés en Livres</a></li>
+                <li><a href="http://www.amazon.fr/gp/new-releases/dvd"><span class="glyphicon glyphicon-film"></span> Dernières nouveautés en DVD & Blu-ray</a></li>
+                <li><a href="http://www.amazon.fr/promotions-bons-plans/b/ref=topnav_nba?ie=UTF8&node=51375011"><span class="glyphicon glyphicon-flash"></span> Promotions</a></li>
+                <li><a href="https://www.amazon.fr/gp/css/homepage"><span class="glyphicon glyphicon-user"></span>Votre compte</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="Recherche FR" class="form-control"/>
+        </div>
+      </form>
+      </div>
+      </div>
+      <div class="row">
+            <div class="col-xs-6 col-md-3"><a href="http://www.amazon.cn" title="Amazon.cn - 中国"> <img src="img/cn.png" class="img-responsive"></a>
+      <form action="http://www.amazon.cn/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.cn/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> 图书新品排行榜</a></li>
+                <li><a href="http://www.amazon.cn/gp/new-releases/wireless/ref=zg_bsnr_wireless_home_all?pf_rd_p=62721852&pf_rd_s=center-2&pf_rd_t=2201&pf_rd_i=home&pf_rd_m=A1AJ19PSB66TGU&pf_rd_r=1A4XHZB8SGVW2B0JCPEZ"><span class="glyphicon glyphicon-film"></span> 手机/通讯</a></li>
+                <li><a href="http://www.amazon.cn/%E4%BF%83%E9%94%80-%E7%89%B9%E4%BB%B7/b/ref=cs_top_nav_gb27?ie=UTF8&node=42450071"><span class="glyphicon glyphicon-flash"></span> 打折促销</a></li>
+                <li><a href="https://www.amazon.cn/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> 我的帐户</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="搜索CN" class="form-control"/>
+        </div>
+      </form>
+      
+      </div>
+      <div class="col-xs-6 col-md-3"><a href="http://www.amazon.co.jp" title="Amazon.co.jp - 日本"><img src="img/jp.png" class="img-responsive"></a>
+     <form action="http://www.amazon.co.jp/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.co.jp/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> 新しいブックリリース</a></li>
+                <li><a href="http://www.amazon.co.jp/gp/new-releases/dvd"><span class="glyphicon glyphicon-film"></span> DVD の 新着ニューリリース</a></li>
+                <li><a href="http://www.amazon.co.jp/%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%BB%E3%83%BC%E3%83%AB/b/ref=topnav_deals?ie=UTF8&node=2221688051"><span class="glyphicon glyphicon-flash"></span> タイムセール 毎日更新 数量＆期間限定の特価品</a></li>
+                <li><a href="https://www.amazon.co.jp/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> アカウントサービス</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="検索JP" class="form-control"/>
+        </div>
+      </form>
+      
+      </div>
+      <div class="col-xs-6 col-md-3"><a href="http://www.amazon.es" title="Amazon.es - España"><img src="img/es.png"  class="img-responsive"></a>
+      <form action="http://www.amazon.es/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.es/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> Últimas novedades en Libros</a></li>
+                <li><a href="http://www.amazon.es/gp/new-releases/dvd"><span class="glyphicon glyphicon-film"></span> Últimas novedades en Cine y Series TV</a></li>
+                <li><a href="http://www.amazon.es/b/ref=topnav_nba/280-6005868-1968648?ie=UTF8&node=2711076031"><span class="glyphicon glyphicon-flash"></span> Nuestras ofertas</a></li>
+                <li><a href="https://www.amazon.es/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> Mi cuenta</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="Búsqueda ES" class="form-control"/>
+        </div>
+      </form>
+      
+      </div>
+      <div class="col-xs-6 col-md-3"><a href="http://www.amazon.it" title="Amazon.it - Italia"><img src="img/it.png"  class="img-responsive"></a>
+      <form action="http://www.amazon.it/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.it/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> Le novità più interessanti in Libri</a></li>
+                <li><a href="http://www.amazon.it/gp/new-releases/dvd"><span class="glyphicon glyphicon-film"></span> Le novità più interessanti in Film e TV</a></li>
+                <li><a href="http://www.amazon.it/b/ref=topnav_deals?ie=UTF8&node=471856031"><span class="glyphicon glyphicon-flash"></span> Offerte</a></li>
+                <li><a href="https://www.amazon.it/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> Il mio account</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="Ricercare IT" class="form-control"/>
+        </div>
+      </form>
+      </div>
+      </div>
+      <div class="row">
+    <div class="col-xs-6 col-md-3"><a href="http://www.amazon.in" title="Amazon.in - India"><img src="img/in.png" class="img-responsive"></a>
+    <form action="http://www.amazon.in/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn dropup">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.in/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> New Books</a></li>
+                <li><a href="http://www.amazon.in/gp/new-releases/dvd"><span class="glyphicon glyphicon-film"></span> New Movies</a></li>
+                <li><a href="http://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Dcomputers&field-keywords="><span class="glyphicon glyphicon-floppy-disk"></span> Computers and Accessories</a></li>
+                <li><a href="https://www.amazon.in/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="Search India" class="form-control"/>
+        </div>
+      </form>
+    </div>
+    <div class="col-xs-6 col-md-3"><a href="http://www.amazon.ca" title="Amazon.ca - Canada"><img src="img/ca.png" class="img-responsive"></a>
+   <form action="http://www.amazon.ca/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn dropup">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+               
+                <li><a href="http://www.amazon.ca/gp/new-releases/books"><span class="glyphicon glyphicon-book"></span> New Books</a></li>
+                <li><a href="http://www.amazon.ca/gp/new-releases/dvd"><span class="glyphicon glyphicon-film"></span> New Movies</a></li>
+                <li><a href="http://www.amazon.ca/Deals-Amazonca-Save-Electronics-DVD-Blu-ray-Books-Kitchen-Watches-Tools-VideoGames-Music-Software-Sp/b/ref=topnav_deals?ie=UTF8&node=1265255011"><span class="glyphicon glyphicon-flash"></span> Deals Store</a></li>
+                <li><a href="https://www.amazon.ca/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="Search Canada" class="form-control"/>
+        </div>
+      </form>
+    </div>
+    <div class="col-xs-6 col-md-3"><a href="http://www.amazon.com.br" title="Amazon.com.br - Brasil"><img src="img/br.png" class="img-responsive"></a>
+    <form action="http://www.amazon.com.br/s/" method="get">
+        <div class="input-group" style="margin-top: 5px;">
+            <div class="input-group-btn dropup">
+               <button type="submit" class="btn btn-amazon" tabindex="-1">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <button type="button" class="btn btn-amazon dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://www.amazon.com.br/gp/css/homepage"><span class="glyphicon glyphicon-user"></span> Sua conta</a></li>
+              </ul>
+            </div>
+            <input type="hidden" name="tag" value=""/>
+            <input type="hidden" name="_encoding" value="UTF-8">
+            <input type="text" name="keyword" required value="" placeholder="Pesquisa BR" class="form-control"/>
+        </div>
+      </form>
+    </div>
+    </div>
+    </div>
+    <style>
+      
+      /* To push content below navbar */
+      @media (min-width: 980px) {
+        body {
+          margin-top: 30px;
+        }
+      }
+      </style>
+   
+ </body>
+</html>
