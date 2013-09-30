@@ -1,0 +1,19 @@
+{
+  "name": "My App",
+  "description": "The World of Amazon",
+  "launch_path": "http://www.theepupil.com",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Thee Pupil",
+    "url": "http://theepupil.weebly.com"
+  },
+  "default_locale": "en"
+
+
+"chrome": { "navigation": true​ }
+
+}
+
+
