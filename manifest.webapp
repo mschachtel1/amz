@@ -1,7 +1,6 @@
 {
     "name": "My App",
     "description": "The World of Amazon",
-    "launch_path": "http://www.theepupil.com",
     "icons": {
         "128": "icon-128.png"
     },
