@@ -2,6 +2,7 @@
     "app_type": "hosted",
     "name": "Amazon",
     "description": "Search any Amazon Country",
+    "launch_path": "/",
     "icons": {
         "128": "icon-128.png"
     },
